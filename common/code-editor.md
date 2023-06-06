@@ -19,3 +19,5 @@
         "i18n-ally.displayLanguage": "en-US"
     }
     ```
+
+* [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) вывод тайпскрипт ошибок в более дружелюбном формате
