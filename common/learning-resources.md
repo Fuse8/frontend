@@ -14,3 +14,4 @@
 ## Разное
 * [Веб-стандарты](https://web-standards.ru): полезно слушать подкасты, чтобы получать последнюю информацию по веб технологиям
 * [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn): (eng) Курс, который рассказывает, как эффективно учиться и запоминать пройденный материал
+* [Ahmad Shadeed](https://ishadeed.com/articles): (eng) Полезный блог фронтенд разработчика, много CSS решений
