@@ -1,6 +1,8 @@
-## Плагины для редактора кода
+## Плагины и настройки для редактора кода
 
-Пример плагинов для vs code, для web storm плагины, возможно, уже включены в редаткор или можно найти по похожим названиям
+Пример плагинов для vs code, для web storm плагины, возможно, уже включены в редактор или можно найти по похожим названиям
+
+* [Linked Cursors for JSX Tags](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-1.html#linked-cursors-for-jsx-tags) настройка позволяющая при редактировании открывающего/закрывающего JSX тега одновременно редактировать закрывающий/открывающий тег
 
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) проверка кода на опечатки, также подсвечивает, если в слове буква из другого языка, например, сanceled (первая бука "с" кириллица), такие ошибки сложно заметить
 
