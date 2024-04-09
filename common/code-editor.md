@@ -23,3 +23,5 @@
     ```
 
 * [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) вывод тайпскрипт ошибок в более дружелюбном формате
+
+* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) удобная работа с гитом. Например, показывает git blame при клике на строку кода

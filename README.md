@@ -4,3 +4,4 @@
 - [Плагины и настройки для редактора кода](common/code-editor.md)
 - [Ресурсы для обучения](common/learning-resources.md)
 - [Инструменты для разработки](common/tools.md)
+- [Работа с гитом](common/git-flow.md)
