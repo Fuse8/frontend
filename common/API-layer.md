@@ -1,7 +1,7 @@
 ## Работа с API
 
 ## Клиент
-Для работы с API рекомендуется использовать обертки вокруг клиентов используемых интерфейсов, (fetch, axios, XMLHttpRequest)
+Для работы с API рекомендуется использовать обертки вокруг используемых интерфейсов, (fetch, axios, XMLHttpRequest)
 
 ```javascript
 export async function apiClient(params){
