@@ -26,6 +26,10 @@ export async function getUsers(params){
 ```
 ## Типы
 
-Рекомендуется активно взаимодействовать с бекендом и настоятельно требовать использовать swagger или если вам
-сильно повезет graphql
-И уже оттуда гегерировать типы как пример [openapi-typescript](https://www.npmjs.com/package/openapi-typescript)
+Рекомендуется активно взаимодействовать с бекендом и настоятельно требовать использовать swagger или, если вам
+сильно повезет, graphql
+И уже оттуда гегерировать типы как пример [openapi-ts](https://github.com/hey-api/openapi-ts)
+
+## Композиции (Vue) или хуки (React)
+
+На уровне приложения, рекомендовано использовать композиции. Из готовых можно рассмотреть [TanStack Query](https://tanstack.com/query/latest)
