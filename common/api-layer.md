@@ -1,7 +1,7 @@
 ## Работа с API
 
 ## Клиент
-Для работы с API рекомендуется использовать обертки вокруг используемых интерфейсов, (fetch, axios, XMLHttpRequest) ([Пример](./../examples/API-layer-example.md))
+Для работы с API рекомендуется использовать обертки вокруг используемых интерфейсов, (fetch, axios, XMLHttpRequest)
 
 ```javascript
 export async function apiClient(params){
@@ -32,7 +32,7 @@ export async function getUsers(params){
 
 Рекомендуется активно взаимодействовать с бекендом и настоятельно требовать использовать swagger или, если вам
 сильно повезет, graphql
-И уже оттуда гегерировать типы как пример [openapi-ts](https://github.com/hey-api/openapi-ts)
+И уже оттуда генерировать типы как пример [openapi-ts](https://github.com/hey-api/openapi-ts)
 
 ## Композиции (Vue) или хуки (React)
 

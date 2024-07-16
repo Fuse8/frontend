@@ -8,7 +8,7 @@
 - [Ресурсы для обучения](common/learning-resources.md)
 - [Инструменты для разработки](common/tools.md)
 - [Работа с гитом](common/git-flow.md)
-- [Работа с API](common/API-layer.md)
+- [Работа с API](common/api-layer.md)
 
 ### Языки
 
@@ -25,3 +25,4 @@
 ### Примеры
 
 - [Работа с формами](./examples/forms.md)
+- [Работа с api](./examples/api-layer.md))
