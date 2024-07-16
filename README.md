@@ -8,6 +8,7 @@
 - [Ресурсы для обучения](common/learning-resources.md)
 - [Инструменты для разработки](common/tools.md)
 - [Работа с гитом](common/git-flow.md)
+- [Работа с API](common/API-layer.md)
 
 ### Языки
 
