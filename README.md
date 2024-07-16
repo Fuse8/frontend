@@ -7,7 +7,7 @@
 - [Плагины и настройки для редактора кода](common/code-editor.md)
 - [Ресурсы для обучения](common/learning-resources.md)
 - [Инструменты для разработки](common/tools.md)
-- [Работа с гитом](common/git-flow.md)
+- [Работа с гитом](common/git-flow/git-flow.md)
 - [Работа с API](common/api-layer.md)
 
 ### Языки
