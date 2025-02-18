@@ -5,6 +5,8 @@
 
 ### Работа с формами:
 - React: [react-hook-form](https://www.react-hook-form.com/)
+- Интернациональный компонет <input/> для работы с номерами телефонов в React: [react-phone-number-input](https://www.npmjs.com/package/react-phone-number-input)
+- Растущая коллекция из 59 костомных инпутов на многие случаи жизни, созданных с помощью React и Tailwind CSS. [Origin UI - Input](https://originui.com/input)
 
 ### Тултипы:
 - React: [tippy](https://github.com/atomiks/tippyjs-react), если не подходит, то [floating-ui](https://floating-ui.com/docs/react)
