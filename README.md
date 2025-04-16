@@ -1,5 +1,7 @@
 ## База знаний фронтенда
 
+[Правила написания базы знаний](./rules.md)
+
 ### Общее
 
 - [Чек-лист фронтенда](common/checklist.md)
@@ -21,6 +23,7 @@
 - [Документация](./required-project-rules/documentation.md)
 - [Хелпер для роутов](./required-project-rules/routes-helper.md)
 - [Архитектура](./required-project-rules/architecture.md)
+- [Stylelint](./required-project-rules/stylelint/stylelint.md)
 
 ### Примеры
 
