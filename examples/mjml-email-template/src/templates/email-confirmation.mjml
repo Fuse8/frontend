@@ -1,0 +1,33 @@
+<mjml>
+  <mj-head>
+    <mj-include path="../parts/global-settings.mjml" />
+    <mj-title>Код подтверждения</mj-title>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper padding="0 20px">
+      <mj-include path="../parts/header.mjml" />
+
+      <mj-section background-color="#ffffff">
+        <mj-column padding-bottom="40px">
+          <mj-text
+            font-size="24px"
+            line-height="32px"
+            font-weight="700"
+            color="#262647"
+          >
+            Код подтверждения
+          </mj-text>
+          <mj-text>
+            {{.code}} — ваш код для подтверждения почтового адреса.
+          </mj-text>
+          <mj-text
+            >Если вы не запрашивали подтверждение почты, проигнорируйте это
+            письмо.</mj-text
+          >
+        </mj-column>
+      </mj-section>
+
+      <mj-include path="../parts/copyright.mjml" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

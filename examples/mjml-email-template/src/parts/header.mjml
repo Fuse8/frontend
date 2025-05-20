@@ -1,0 +1,10 @@
+<mj-section>
+  <mj-column>
+    <mj-image
+      src="https://placehold.co/82x47"
+      alt=""
+      width="82px"
+      height="47px"
+    />
+  </mj-column>
+</mj-section>
