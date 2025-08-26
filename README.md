@@ -12,9 +12,12 @@
 - [Работа с гитом](common/git/git.md)
 - [Работа с API](common/api-layer.md)
 
+### Best practices
+
+- [Верстка](./best-practices/html-css.md)
+
 ### Языки
 
-- [HTML](./languages/html.md)
 - [Typescript](./languages/typescript.md)
 - [Javascript](./languages/javascript.md)
 
