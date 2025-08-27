@@ -31,5 +31,5 @@
 ### Примеры
 
 - [Работа с формами](./examples/forms.md)
-- [Работа с api](./examples/api-layer.md)
+- [Работа с api](./examples/api-layer/api-layer.md)
 - [Верстка html писем с использованием mjml](./examples/mjml-email-template/README.md)
