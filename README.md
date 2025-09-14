@@ -15,6 +15,7 @@
 ### Best practices
 
 - [Верстка](./best-practices/html-css.md)
+- [SEO](./best-practices/seo.md)
 
 ### Языки
 
