@@ -17,11 +17,7 @@
 - [Верстка](./best-practices/html-css.md)
 - [SEO](./best-practices/seo.md)
 - [Typescript](./best-practices/typescript.md)
-
-### Языки
-
-- [Typescript](./languages/typescript.md)
-- [Javascript](./languages/javascript.md)
+- [Javascript](./best-practices/javascript.md)
 
 ### Обязательные требования к проектам
 
