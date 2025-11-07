@@ -9,6 +9,11 @@
 - [Javascript](./best-practices/javascript.md)
 - [GIT](./best-practices/git/git.md)
 - [SEO](./best-practices/seo.md)
+- [React](./best-practices/react.md)
+- [Nextjs](./best-practices/nextjs.md)
+- [Оптимизация](./best-practices/optimization.md)
+- [Архитектура](./best-practices/architecture.md)
+- [Тестирование](./best-practices/testing.md)
 
 ### Общее
 
