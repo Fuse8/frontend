@@ -5,19 +5,24 @@
 - Знать типы данных и понимать, когда их применять
 - Знать как работают call, apply, bind
 - Понимать замыкания, контекст выполнения
-- Понимать асинхронность и как работает event loop
+- Понимать асинхронность, уметь использовать методы Promise, async/await
+- Понимать как работает event loop
 - Понимать различия var, let, const
 - Понимать, когда использовать throttle, debounce
 - Понимать this , когда можно потерять контекст this
+- Понимать отличие иммутабельного от мутабельного, предпочтительнее писать в иммутабельном стиле
 - Уметь работать с основными конструкциями языка: переменные, функции, циклы, условия
 - Уметь работать с обработчиком событий, понимать всплытие/погружение событий и как останавливать
-- Уметь работать с базовыми методами массивов, объектов
+- Уметь работать с базовыми методами массивов, объектов, строк
 - Уметь работать с setTimeout, setInterval
 - Уметь работать с fetch
 - Уметь применять spread и rest операторы
 - Уметь работать с Date, Intl
-- Уметь написать рекурсию
-- Уметь работать с деревьями, сделать обход по дереву
+- Уметь обрабатывать ошибки
+- Уметь дебажить свой код
+- Уметь использовать optional chaining (?.) и nullish coalescing (??)
+- Уметь использовать разные структуры данных и понимать, какую структуру лучше использовать под задачу
+- Уметь использовать деструктуризацию массивов, объектов
 - Умение работать с localStorage, Cookies, SessionStorage
 
 ### Практики
@@ -26,42 +31,64 @@
 
 - работают автоимпорты и удобный рефакторинг
 - в проекте импортируемые модули называются одинаково, так как практически нигде не будут переименовываться в отличии от дефолтного экспорта, где можно указать, что угодно
-- поддержка tree-shaking
 
 2. Guard expression
 
-	*Без guard expression*
-	```js
-	const processOrder = (order) => {
-		if (order) {
-			if (order.isPaid) {
-				if (!order.isCancelled) {
-					if (order.items && order.items.length > 0) {
-						return "Заказ принят в обработку";
-					} else {
-						return "В заказе нет товаров";
-					}
-				} else {
-					return "Заказ отменён";
-				}
-			} else {
-				return "Заказ не оплачен";
-			}
-		} else {
-			return "Заказ не найден";
-		}
-	};
-	```
+   _Без guard expression_
 
-	*Guard expression*
-	```js
-	const processOrder = (order) => {
-		if (!order) return "Заказ не найден";
-		if (!order.isPaid) return "Заказ не оплачен";
-		if (order.isCancelled) return "Заказ отменён";
-		if (!order.items || order.items.length === 0) return "В заказе нет товаров";
+   ```js
+   const processOrder = (order) => {
+   	if (order) {
+   		if (order.isPaid) {
+   			if (!order.isCancelled) {
+   				if (order.items && order.items.length > 0) {
+   					return "Заказ принят в обработку";
+   				} else {
+   					return "В заказе нет товаров";
+   				}
+   			} else {
+   				return "Заказ отменён";
+   			}
+   		} else {
+   			return "Заказ не оплачен";
+   		}
+   	} else {
+   		return "Заказ не найден";
+   	}
+   };
+   ```
 
-		return "Заказ принят в обработку";
-	};
+   _Guard expression_
 
-	```
+   ```js
+   const processOrder = (order) => {
+   	if (!order) return "Заказ не найден";
+   	if (!order.isPaid) return "Заказ не оплачен";
+   	if (order.isCancelled) return "Заказ отменён";
+   	if (!order.items || order.items.length === 0)
+   		return "В заказе нет товаров";
+
+   	return "Заказ принят в обработку";
+   };
+   ```
+
+3. Если в функции больше 1 параметра, лучше использовать объект
+   ```js
+   const formatDate = ({ date, type = 'year' }) => {
+		// код форматирования...
+   	return date;
+   };
+   ```
+
+
+4. Принцип "положительное утверждение", который делает код более легким для восприятия. Код лучше читается от истины (true), а написание логики от обратного (false) заставляет задуматься
+
+Плохо:
+```jsx
+	<button onClick={addProductToCartHandler} > {!isProductInCart ? 'Add to cart' : 'Go to cart'} </button>
+```
+
+Хорошо:
+```jsx
+	<button onClick={addProductToCartHandler} > <img src={cartWhite} alt="" /> {isProductInCart ? 'Go to cart' : 'Add to cart'} </button>
+```
