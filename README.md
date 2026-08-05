@@ -35,3 +35,7 @@
 - [Работа с формами](./examples/forms.md)
 - [Работа с api](./examples/api-layer/api-layer.md)
 - [Верстка html писем с использованием mjml](./examples/mjml-email-template/README.md)
+
+### Заметки
+
+- [2026-08-05 Keyv/Cacheable npm supply-chain incident](./notes/2026-08-05-keyv-and-cacheable-npm-package-hijacked-in-supply-chain-attack.md)
