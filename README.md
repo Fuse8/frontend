@@ -38,5 +38,6 @@
 
 ### Заметки
 
+- [2026-02-10 MinIO пропал из Docker: что случилось и чем заменить](./notes/2026-02-10-minio-alternatives.md)
 - [2026-08-05 Keyv/Cacheable npm supply-chain incident](./notes/2026-08-05-keyv-and-cacheable-npm-package-hijacked-in-supply-chain-attack.md)
 - [2026-08-12 Использование SSH-ключей для проектов](./notes/2026-08-12-ssh-keys-for-projects.md)
