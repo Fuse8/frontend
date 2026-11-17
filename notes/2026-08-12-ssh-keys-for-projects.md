@@ -87,26 +87,6 @@ git remote set-url origin git@github-personal:username/project.git
 
 Так Git все равно будет ходить на `github.com`, потому что внутри алиаса указан `HostName github.com`, но SSH будет выбирать ключ по имени `Host`: `github-work` или `github-personal`.
 
-## Имя и email для коммитов
-
-Важно настроить `user.name` и `user.email`, чтобы в GitHub/GitLab отображалась правильная почта. Для рабочих проектов лучше указывать рабочую почту, для личных - личную.
-
-Глобальная настройка:
-
-```bash
-git config --global user.name "Dmitry Berdnikov"
-git config --global user.email "personal@example.com"
-```
-
-Локальная настройка для конкретного рабочего проекта:
-
-```bash
-git config user.name "Dmitry Berdnikov"
-git config user.email "dmitry.berdnikov@fuse8.online"
-```
-
-Локальная настройка записывается в `.git/config` конкретного проекта и переопределяет глобальную. Это удобно, если личные проекты должны коммититься с личной почтой, а рабочие - с рабочей.
-
 ## Альтернатива через Fork
 
 Еще можно использовать Git-клиент Fork: в нем можно переключать SSH-ключи для проектов через интерфейс.
